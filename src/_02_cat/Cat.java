@@ -17,7 +17,19 @@ package _02_cat;
 		*/
 
 
+
 public class Cat {
+	
+	public static void main(String[] args){
+	Cat cat = new Cat("cat");
+	
+	
+	
+	
+	cat.meow();
+	cat.printName();
+	cat.kill();
+}
 
 	private String name;
 	private int lives = 9;
